@@ -1,30 +1,30 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Angelo Ortiz Tandazo",
+    "label": "PhD student",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "angelo.ortiz.t@gmail.com",
+    // "phone": "(912) 123-4567",
+    "url": "https://angelo-ortiz.github.io/",
+    "summary": "A PhD student working on early vocal learning",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "45, rue d'Ulm",
+      "postalCode": "75005",
+      "city": "Paris",
+      "countryCode": "FR",
+      // "region": "California"
     },
     "profiles": [
       {
         "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "username": "angelo_ortiz_t",
+        "url": "https://twitter.com/angelo_ortiz_t"
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
+      "name": "LSCP, École Normale Supérieure",
       "position": "Professor of Theoretical Physics",
       "url": "https://example.com",
       "startDate": "1933-01-01",
@@ -50,24 +50,28 @@
       ]
     }
   ],
-  "awards": [
-    {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
+  // "awards": [
+  //   {
+  //     "title": "Nobel Prize in Physics",
+  //     "date": "1921-11-01",
+  //     "awarder": "Royal Swedish Academy of Sciences",
+  //     "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+  //   }
   ],
   "certificates": [],
   "publications": [],
   "skills": [],
   "languages": [
     {
-      "language": "German",
+      "language": "Spanish",
       "fluency": "Native speaker"
     },
     {
       "language": "English",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "French",
       "fluency": "Fluent"
     }
   ],
