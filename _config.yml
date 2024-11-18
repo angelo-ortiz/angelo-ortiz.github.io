@@ -45,7 +45,7 @@ repo_trophies:
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
 
-rss_icon: true
+rss_icon: false # true
 
 # -----------------------------------------------------------------------------
 # Layout
@@ -77,7 +77,7 @@ twitter_username: angelo_ortiz_t # your Twitter handle
 mastodon_username: sigmoid.social/@angelo_ortiz_t # your mastodon instance+username in the format instance.tld/@username
 linkedin_username: angelo-ortiz-t # your LinkedIn user name
 telegram_username: # your Telegram user name
-scholar_userid: # your Google Scholar ID
+scholar_userid: buWYZzIAAAAJ # your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID
 whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
 orcid_id: # your ORCID ID
@@ -158,9 +158,9 @@ disqus_shortname: al-folio # put your disqus shortname
 # External sources.
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
-external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
+# external_sources:
+#   - name: medium.com
+#     rss_url: https://medium.com/@al-folio/feed
 
 # -----------------------------------------------------------------------------
 # Collections
@@ -276,7 +276,7 @@ display_categories: ['blockquotes'] # these categories will be displayed on the 
 
 scholar:
 
-  last_name: [Ortiz]
+  last_name: [Ortiz Tandazo]
   first_name: [Angelo]
 
   style: apa

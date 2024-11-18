@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I started my Phd on early vocal learning at LSCP and GIPSA-lab.
+I started my PhD on early vocal learning at LSCP and GIPSA-lab.

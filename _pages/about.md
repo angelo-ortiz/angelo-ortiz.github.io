@@ -19,6 +19,6 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a PhD student at the [Cognitive ML team](https://cognitive-ml.fr/) (LSCP, ENS) and the [CRISSP team](https://www.gipsa-lab.grenoble-inp.fr/en/team/crissp") (GIPSA-lab, Grenoble-INP) working on modelling early vocal learning with a simulated vocal tract under the supervision of [Emmanuel Dupoux](http://www.lscp.net/persons/dupoux/) and [Thomas Hueber](https://www.gipsa-lab.grenoble-inp.fr/~thomas.hueber/).
+I am a PhD student at the [Cognitive ML team](https://cognitive-ml.fr/) (LSCP, ENS) and the [CRISSP team](https://www.gipsa-lab.grenoble-inp.fr/en/team/crissp) (GIPSA-lab, Grenoble-INP) working on modelling early vocal learning with a simulated vocal tract under the supervision of [Emmanuel Dupoux](http://www.lscp.net/persons/dupoux/) and [Thomas Hueber](https://www.gipsa-lab.grenoble-inp.fr/~thomas.hueber/).
 
 I hold a BSc in Computer Science from Sorbonne University, and the Diploma in Computer Science from École Normale Supérieure. As part of my programme at ENS, I also obtained an MSc in Machine Learning (*Master 2 MVA*) from École Normale Supérieure Paris-Saclay.
