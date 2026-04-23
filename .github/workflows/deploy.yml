@@ -63,10 +63,28 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2'
+          bundler-cache: true
+      - name: Install ImageMagick
+        run: sudo apt-get update && sudo apt-get install -y imagemagick
+      - name: Install Jupyter
+        run: pip install jupyter nbconvert
+      - run: bundle exec jekyll build
+      - uses: actions/upload-pages-artifact@v3
+
   deploy:
     # available images: https://github.com/actions/runner-images#available-images
+    needs: build
     runs-on: ubuntu-latest
     steps:
       - name: Checkout 🛎️
