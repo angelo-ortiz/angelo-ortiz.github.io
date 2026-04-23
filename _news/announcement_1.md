@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 10-10-2022 09:00:00+0200
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+I started my internship on gestural speech perception at Cognitive ML.
