@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper [Simulating articulatory trajectories with phonological feature interpolation](https://www.isca-archive.org/interspeech_2024/ortiztandazo24_interspeech.html) has been accepted at Interspeech 2024.
+📝 Our paper [Simulating articulatory trajectories with phonological feature interpolation](https://www.isca-archive.org/interspeech_2024/ortiztandazo24_interspeech.html) has been accepted at Interspeech 2024.

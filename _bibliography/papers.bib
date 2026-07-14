@@ -1,30 +1,70 @@
 ---
 ---
 
-@misc{luthra2026spidradaptuniversalspeechrepresentation,
-  title={{SpidR}-{Adapt}: A Universal Speech Representation Model for Few-Shot Adaptation},
-  author={Mahi Luthra and Jiayi Shen and Maxime Poli and Angelo {Ortiz Tandazo} and Yosuke Higuchi and Youssef Benchekroun and Martin Gleize and Charles-Eric Saint-James and Dongyan Lin and Phillip Rust and Angel Villar and Surya Parimi and Vanessa Stark and Rashel Moritz and Juan Pino and Yann LeCun and Emmanuel Dupoux},
-  year={2026},
-  eprint={2512.21204},
-  archivePrefix={arXiv},
-  primaryClass={cs.CL},
-  url={https://arxiv.org/abs/2512.21204},
-  bibtex_show = {true},
-  selected = {true},
-  code={https://github.com/facebookresearch/spidr-adapt},
+@inproceedings{luthra-etal-2026-spidr,
+  title = "{S}pid{R}-Adapt: A Universal Speech Representation Model for Few-Shot Adaptation",
+  author = "Luthra, Mahi  and
+      Shen, Jiayi  and
+      Poli, Maxime  and
+      Ortiz Tandazo, Angelo  and
+      Higuchi, Yosuke  and
+      Benchekroun, Youssef  and
+      Gleize, Martin  and
+      Saint-James, Charles-Eric  and
+      Lin, Dongyan  and
+      Rust, Phillip  and
+      Villar, Angel  and
+      Parimi, Surya  and
+      Stark, Vanessa  and
+      Moritz, Rashel  and
+      Pino, Juan  and
+      LeCun, Yann  and
+      Dupoux, Emmanuel",
+  editor = "Liakata, Maria  and
+      Moreira, Viviane P.  and
+      Zhang, Jiajun  and
+      Jurgens, David",
+  booktitle = "Proceedings of the 64th Annual Meeting of the {A}ssociation for {C}omputational {L}inguistics (Volume 1: Long Papers)",
+  month = jul,
+  year = "2026",
+  address = "San Diego, California, United States",
+  publisher = "Association for Computational Linguistics",
+  url = "https://aclanthology.org/2026.acl-long.1325/",
+  doi = "10.18653/v1/2026.acl-long.1325",
+  pages = "28705--28728",
+  ISBN = "979-8-89176-390-6",
+  abstract = "Human infants, with only a few hundred hours of speech exposure, acquire basic units of new languages, highlighting a striking efficiency gap compared to the data-hungry self-supervised speech models. To address this gap, this paper introduces SpidR-Adapt for rapid adaptation of speech units to new languages using minimal unlabeled data. We cast such low-resource speech representation learning as a meta-learning problem and construct a multi-task adaptive pre-training (MAdaPT) protocol which formulates the adaptation process as a bi-level optimization framework. To enable scalable meta-training under this framework, we propose a novel heuristic solution, first-order bi-level optimization (FOBLO), avoiding heavy computation costs. Finally, we stabilize meta-training by using a robust initialization through interleaved supervision which alternates self-supervised and supervised objectives. Empirically, SpidR-Adapt achieves rapid gains in phonemic discriminability (ABX) and downstream spoken language modeling scores (sWUGGY, sBLIMP, tSC), surpassing in-domain toplines after training on less than 1h of target-language audio and delivering $100\times$ greater data efficiency than standard multi-task training. These findings highlight a practical, architecture-agnostic path toward biologically inspired, data-efficient representations. We open-source the training code and model checkpoints at https://github.com/facebookresearch/spidr-adapt.",
+  bibtex_show = "true",
+  selected = "true",
+  pdf = "https://aclanthology.org/2026.acl-long.1325.pdf",
+  code = "https://github.com/facebookresearch/spidr-adapt",
 }
 
-@misc{ortiztandazo25_maubert,
-  title = {{MauBERT}: Universal Phonetic Inductive Biases for Few-Shot Acoustic Units Discovery},
-  author = {Angelo {Ortiz Tandazo} and Manel Khentout and Youssef Benchekroun and Thomas Hueber and Emmanuel Dupoux},
-  year = {2025},
-  eprint = {2512.19612},
-  archivePrefix = {arXiv},
-  primaryClass = {cs.CL},
-  url = {https://arxiv.org/abs/2512.19612},
-  pdf = {https://arxiv.org/pdf/2512.19612},
-  bibtex_show = {true},
-  selected = {true},
+@inproceedings{ortiz-tandazo-etal-2026-maubert,
+  title = "{M}au{BERT}: Universal Phonetic Inductive Biases for Few-Shot Acoustic Units Discovery",
+  author = "Ortiz Tandazo, Angelo  and
+    Khentout, Manel  and
+    Benchekroun, Youssef  and
+    Hueber, Thomas  and
+    Dupoux, Emmanuel",
+  editor = "Liakata, Maria  and
+    Moreira, Viviane P.  and
+    Zhang, Jiajun  and
+    Jurgens, David",
+  booktitle = "Proceedings of the 64th Annual Meeting of the {A}ssociation for {C}omputational {L}inguistics (Volume 1: Long Papers)",
+  month = jul,
+  year = "2026",
+  address = "San Diego, California, United States",
+  publisher = "Association for Computational Linguistics",
+  url = "https://aclanthology.org/2026.acl-long.24/",
+  doi = "10.18653/v1/2026.acl-long.24",
+  pages = "568--585",
+  ISBN = "979-8-89176-390-6",
+  abstract = "This paper introduces MauBERT, a multilingual extension of HuBERT that leverages articulatory features for robust cross-lingual phonetic representation learning. We continue HuBERT pre-training with supervision based on a phonetic-to-articulatory feature mapping in 55 languages. Our models learn from multilingual data to predict articulatory features or phones, resulting in language-independent representations that capture multilingual phonetic properties. Through comprehensive ABX discriminability testing, we show MauBERT models produce more context-invariant representations than state-of-the-art multilingual self-supervised learning models. Additionally, the models effectively adapt to unseen languages and casual speech with minimal self-supervised fine-tuning (10 hours of speech). This establishes an effective approach for instilling linguistic inductive biases in self-supervised speech models.",
+  bibtex_show = "true",
+  selected = "true",
+  pdf = "https://aclanthology.org/2026.acl-long.24.pdf",
+  code = "https://github.com/bootphon/maubert",
 }
 
 @misc{poli2026discophonbenchmarkingunsuperviseddiscovery,
